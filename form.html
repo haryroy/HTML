@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </Form>
+    </title>
+</head>
+
+<body>
+    <div>
+        <h1>Admission Form</h1>
+        <form action="form.php">
+            Name of Candidate <input type="text" placeholder="Enter Your Name"><br>
+            <label for="sectionid">
+                <input type="radio" value="section a" name="section" id="sectionid">Section A
+            </label><br>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">Section B
+            </label><br>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">Section C
+            </label><br>
+            <H1>Hobbies</H1>
+            <input type="checkbox" name="canteen" id="foodcanteen" class="red"><label for="foodcanteen">Want
+                Food</label><br>
+            <input type="checkbox" name="Do not want Food" id="foodcanteen1" class="red"><label for="foodcanteen1">Do
+                Not Want Food</label><br>
+            <label for="foodcanteen"></label>
+            <br>
+            Date of Birth <input type="datetime-local" name="Date of Birth" id="Date"><br><br>
+            Explain Why ? <br><textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="Why you want to join"></textarea>
+            <br>
+            Program for Admission  <select name="Program for Admission" id="Program">
+                
+                <option value="B.A">B.A</option>
+                <option value="B.Com">B.Com</option>
+                <option value="B.Sc.">B.Sc.</option>
+                <option value="B.Tech">B.Tech</option>
+
+
+            </select>
+        </form>
+
+    </div>
+</body>
+
+</html>
